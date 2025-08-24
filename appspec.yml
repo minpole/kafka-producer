@@ -30,7 +30,7 @@ hooks:
     - location: deploy/after_install.sh
       timeout: 120
       runas: kafka
-
+  # 시작시 kafka01 서비스 시작
   ApplicationStart:
     - location: deploy/application_start.sh
       timeout: 60
