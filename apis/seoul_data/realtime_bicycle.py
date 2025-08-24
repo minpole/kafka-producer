@@ -5,5 +5,5 @@ class RealtimeBicycle:
         self.auth_key = "##auth_key_seoul_data##"
 
     def call_api(self) -> None:
-        """서울시 자전거 실시간 API를 호출합니다."""
+        """서울시 자전거 실시간 API를 호출"""
         pass
