@@ -1,6 +1,6 @@
 import yaml
 import os
-
+ 
 root_dir = '/src/kafka-producer'
 with open(f'{root_dir}/config/application.yml','r') as config:
     all_conf_dict = yaml.load(config, Loader=yaml.FullLoader)
